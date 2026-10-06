@@ -37,15 +37,19 @@ A organização dos arquivos visa facilitar a reprodutibilidade dos experimentos
 PROAGRUPAR/
 │
 ├── data/
-│   └── baseMLJurandir.zip/ # Conjuntos de dados brutos gerados pelo simulador SNetS
+│   └── baseMLJurandir.zip                 # Conjunto de dados brutos gerados pelo simulador SNetS
 │
-├── notebooks/              # Implementações dos modelos de Machine Learning
-│   ├── forestNaive/        # Notebooks: Random Forest e Naive Bayes
-│   ├── RL_AB/              # Notebooks: Regressão Logística e Árvore Binária
-│   └── SVM_RNA/            # Notebooks: SVM e Redes Neurais
+├── notebooks/                             # Implementações dos modelos de Machine Learning
+│   ├── lr_dt/                             # Regressão Logística e Árvore de Decisão
+│   │   └── logistic_regression_and_decision_tree.ipynb
+│   ├── rf_naive_bayes/                    # Random Forest e Naive Bayes
+│   │   └── random_forest_and_naive_bayes.ipynb
+│   └── svm_ann/                           # SVM e Redes Neurais Artificiais (ANN)
+│       └── svm_and_neural_networks.ipynb
 │
-├── .gitignore              # Arquivo de exclusão de rastreamento do Git
-└── README.md               # Documentação técnica do projeto
+├── .gitattributes                         # Atributos e configurações de repositório do Git
+├── .gitignore                             # Regras de exclusão de arquivos para o Git
+└── README.md                              # Documentação técnica do projeto
 ```
 
 ## Instruções de Uso
